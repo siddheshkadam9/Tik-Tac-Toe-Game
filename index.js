@@ -24,7 +24,7 @@ function myFun(data) {
 }
 
 function win() {
-    // Winning combinations remain the same
+   
     if (check("div1", "div2", "div3") || check("div1", "div4", "div7") || check("div1", "div5", "div9") ||
         check("div3", "div6", "div9") || check("div3", "div5", "div7") || check("div4", "div5", "div6") ||
         check("div7", "div8", "div9") || check("div2", "div5", "div8")) {
